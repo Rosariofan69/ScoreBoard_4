@@ -1,0 +1,1176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+div.main
+{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width:1250px;
+    height:560px;
+    color: white;
+    background-color:black;
+}
+
+div.control{
+    position: relative;
+    display: flex;
+    /* margin: auto; */
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 1250px;
+    height: 270px;
+    background-color: #c2c1c1;
+    justify-content: space-between;
+}
+
+.Input-Row{
+    display: flex;
+}
+
+.Input-Box{
+    width: 30px;
+    height: 15px;
+    text-align: center;
+}
+
+.Enter-Button{
+    width: 47px;
+    height: 21px;
+    text-align: center;
+}
+
+.Bulk-Enter-Button{
+    margin-left: 15px;
+    Width: 121px;
+    height: 25px;
+    text-align: center;
+}
+
+.CheckBox{
+    height: 20px;
+    color: black;
+}
+
+.Runner-DropDown{
+    width: 120px;
+    margin-top: 10px
+}
+
+.MultiSelect{
+    width: 120px;
+    height: 75px;
+    overflow: auto;
+}
+
+.Control-Section{
+    display: flex;
+    flex-flow: column;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.Play-Result-Row{
+    display: flex;
+    font-size: 15px;
+}
+
+.Res-First-Category{
+    width: 300px;
+    height: 75px;
+}
+
+.Res-Second-Category{
+    width: 300px;
+    height: 30px;
+}
+
+.Res-Third-Category{
+    width: 300px;
+    height: 75px;
+}
+
+.Res-Fours-Category{
+    width: 300px;
+    height: 55px;
+}
+
+.Res-Fifth-Category{
+    width: 300px;
+    height: 30px;
+}
+
+.Game-Start-End-Button{
+    width: 100px;
+    height: 40px;
+}
+
+.Base-Area{
+    margin-top: 20px;
+    height: 70px;
+    position: relative;
+}
+
+.Base-Button{
+    width: 25px;
+    height: 25px;
+    transform: rotate(135deg) skew(10deg, 10deg);
+    position: absolute;
+    border: 2px solid;
+}
+
+.RBI-DropDown{
+    width: 60px;
+}
+
+.Base-First{
+    top: 17px;
+    left: 64px;
+}
+
+.Base-Second{
+    left: 40px;
+}
+
+.Base-Third{
+    top: 17px;
+    left: 15px;
+}
+
+.Button-Row{
+    display: flex;
+}
+
+.Count-Button{
+    width: 50px;
+    height: 33px;
+}
+
+.Minus-Button{
+    width: 80px;
+    height: 33px;
+}
+
+.Button-Color-Ball{
+    background-color: #00ffc8;
+}
+
+.Button-Color-Strike{
+    background-color: #ffff00;
+}
+
+.Button-Color-Out{
+    background-color: #ff0000;
+}
+
+.Confirm-Button{
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.Fix-Button{
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.Setting-DropDown{
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.Custom-TextArea{
+    width: 125px;
+    height: 125px;
+}
+
+.Visiter-Member{
+    position: absolute;
+    vertical-align: middle;
+    margin: 15px;
+    text-align: center;
+    line-height: 46px;
+    overflow: hidden;
+    width: 230px;
+    height: 530px;
+}
+
+.Home-Member{
+    position: absolute;
+    vertical-align: middle;
+    margin: 15px;
+    text-align: center;
+    line-height: 46px;
+    overflow: hidden;
+    width: 230px;
+    height: 530px;
+    right: 0px;
+}
+
+.Visiter-Team1{
+    font-family: 'Bahnschrift';
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #FF0000 0%, #FF0000 40%, #c00000 60%, #c00000 100%);
+    color: white;
+    position: relative;
+    font-size: 40px;
+    line-height: 50px;
+    overflow: hidden;
+    width: 190px;
+    height: 49px;
+}
+
+.Home-Team1{
+    font-family: 'Bahnschrift';
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #006298 0%, #006298 40%, #004468 60%, #004468 100%);
+    color: white;
+    position: relative;
+    font-size: 40px;
+    line-height: 50px;
+    overflow: hidden;
+    width: 190px;
+    height: 49px;
+}
+
+.Box-Full-Visiter{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 190px;
+    height: 42px;
+    border-bottom: 4px solid #ff0000;
+    animation: SlideInText 1s;
+}
+
+.Box-Full-Home{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 190px;
+    height: 42px;
+    border-bottom: 4px solid #B4A169;
+    animation: SlideInText 1s;
+}
+
+.Box-Full-Visiter-P{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 190px;
+    height: 42px;
+    /* border-bottom: 2px solid #006298; */
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ff0000;
+    animation: SlideInText 1s;
+}
+
+.Box-Full-Home-P{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 190px;
+    height: 42px;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #B4A169;
+    animation: SlideInText 1s;
+}
+
+.Now-Batter-Pos{
+    position: absolute;
+    margin: 0;
+    width: 51px;
+    height: 42px;
+    background: linear-gradient(to bottom, #FF0000 0%, #FF0000 40%, #c00000 60%, #c00000 100%);
+    transform: translateX(-5px) skewX(-10deg);
+    border-right: 2px solid #7F7F7F;
+    z-index: 1;
+    box-shadow: 3px 0px 8px black;
+}
+
+.Now-Batter-Name{
+    overflow: visible;
+    margin-left: 42px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    /* width: 140px; */
+    height: 42px;
+    background-color: #404040;
+    /* border-left: 18px solid transparent; */
+    padding-left: 18px;
+    padding-right: 10px;
+    z-index: 0;
+    background: linear-gradient(to bottom, #FF0000 0%, #FF0000 40%, #c00000 60%, #c00000 100%);
+}
+
+.Next-Start-Pos{
+    position: absolute;
+    margin: 0;
+    /* position: relative; */
+    width: 51px;
+    height: 42px;
+    background: linear-gradient(to bottom, #006298 0%, #006298 40%, #004468 60%, #004468 100%);
+    /* background: linear-gradient(to bottom, #B4A169 0%, #B4A169 40%, #7b6e48 60%, #7b6e48 100%); */
+    transform: translateX(-5px) skewX(-10deg);
+    border-right: 2px solid #7F7F7F;
+    z-index: 1;
+    box-shadow: 3px 0px 8px black;
+}
+
+.Box-Pos{
+    position: absolute;
+    margin: 0;
+    /* position: relative; */
+    width: 51px;
+    height: 42px;
+    background: linear-gradient(to bottom, #595959 0%, #595959 40%, #333333 60%, #333333 100%);
+    transform: translateX(-5px) skewX(-10deg);
+    border-right: 2px solid #7F7F7F;
+    z-index: 1;
+    box-shadow: 3px 0px 8px black;
+}
+
+.Pos-Text{
+    font-family: 'Alte DIN 1451 Mittelschrift';
+    /* font-weight: bold; */
+    position: absolute;
+    width: 45px;
+    /* height: 42px; */
+    font-size: 45px;
+    line-height: 42px;
+    text-align: center;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+
+.Pos-Text-DH{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    position: absolute;
+    width: 65px;
+    height: 42px;
+    font-size: 43px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 2;
+    letter-spacing: -2px;
+    transform: scaleX(0.7);
+    transform-origin: left;
+}
+
+.Box-Name{
+    overflow: visible;
+    margin-left: 42px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    /* width: 140px; */
+    height: 42px;
+    background-color: #404040;
+    /* border-left: 18px solid transparent;
+    border-right: 10px solid transparent; */
+    padding-left: 18px;
+    padding-right: 10px;
+    z-index: 0;
+}
+
+.Name-Text{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: justify;
+    text-align-last: justify;
+    /* width: 120px; */
+    height: 42px;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Name-Text-Green{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: justify;
+    text-align-last: justify;
+    /* width: 120px; */
+    height: 42px;
+    color: #00FF00;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Name-Text-Six{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: justify;
+    text-align-last: justify;
+    /* width: 280px; */
+    height: 42px;
+    transform: scaleX(0.56);
+    transform-origin: left;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Name-Text-Five{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: center;
+    width: 233px;
+    height: 42px;
+    transform: scaleX(0.6);
+    transform-origin: left;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Name-Text-Four{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: center;
+    /* width: 187px; */
+    height: 42px;
+    transform: scaleX(0.83);
+    transform-origin: left;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Name-Text-Eight{
+    overflow: visible;
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 38px;
+    font-size: 36px;
+    text-align: center;
+    width: 373px;
+    height: 42px;
+    transform: scaleX(0.375);
+    transform-origin: left;
+    text-shadow: 3px 2px 1px black;
+}
+
+.Running-Score-Full{
+    position: absolute;
+    width: 710px;
+    /* width: 842px; */
+    height: 112px;
+    left: 50%;
+    /* transform: translate(-50%, 15px) scaleX(0.85); */
+    transform: translate(-50%, 15px);
+    border: 4px solid #7F7F7F;
+}
+
+.Running-Score-Title-Full{
+    padding-left: 138px;
+    height: 22px;
+    display: flex;
+    background-color: #595959;
+}
+
+.Running-Score-Title{
+    width: 44px;
+    height: 22px;
+    line-height: 26px;
+    font-size: 22px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+}
+
+.Running-Score-Title-Extension{
+    height: 22px;
+    /* display: flex; */
+    display: none;
+    background-color: #595959;
+}
+
+.Running-Score-Title-LOB{
+    width: 44px;
+    height: 22px;
+    line-height: 26px;
+    font-size: 22px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    transform: scaleX(0.7);
+    transform-origin: center;
+}
+
+.Running-Score-Title-Run{
+    width: 44px;
+    height: 22px;
+    line-height: 26px;
+    font-size: 22px;
+    font-family: 'Bahnschrift';
+    text-align: center;
+    transform-origin: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.Running-Score-Box{
+    height: 44px;
+    display: flex;
+}
+
+.Running-Score-Box-Extension{
+    height: 44px;
+    /* display: flex; */
+    display: none;
+}
+
+.Now-Frame{
+    /* width: 44px;
+    height: 44px;
+    background-color: white; */
+    outline: 3.5px solid #ff0000;
+    outline-offset: -3.5px;
+}
+
+.Running-Score-Odd{
+    width: 38px;
+    height: 44px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: white;
+}
+
+.Running-Score-Even{
+    width: 38px;
+    height: 44px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #e4e4e4;
+}
+
+.Running-Score-Run{
+    width: 38px;
+    height: 44px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #000000;
+}
+
+.Running-Score-MidLine{
+    width: 100%;
+    height: 2px;
+    background-color: #7F7F7F;
+}
+
+.Score-Team{
+    position: relative;
+    width: 138px;
+    height: 44px;
+    background-color: #404040;
+    text-align: center;
+}
+
+.Score-Team img{
+    /* height: 44px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.Score-Text{
+    /* width: 44px; */
+    height: 44px;
+    line-height: 40px;
+    font-size: 48px;
+    font-family: 'DIN';
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+.Score-Text-Run.Score-Text{
+    color: yellow;
+}
+
+.Ribbon{
+    position: absolute;
+    width: 710px;
+    height: 46px;
+    left: 50%;
+    transform: translate(-50%, 144px);
+    border: 2px solid #7F7F7F;
+    box-sizing: border-box;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.Ribbon-Content{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 38px;
+    padding-left: 100%;
+    white-space: nowrap;
+    animation: animate-banner 25s linear infinite;
+}
+
+.Info-Mini{
+    position: absolute;
+    width: 220px;
+    height: 340px;
+    top: 200px;
+    right: 270px;
+}
+
+.Pitch-Info-Box{
+    width: 220px;
+    height: 230px;
+    background: linear-gradient(to bottom, #006298 0%, #006298 40%, #013754 60%, #013754 100%);
+}
+
+.Pitch-Info-Row{
+    display: flex;
+    padding-left: 10px;
+}
+
+.Pitch-Info-Num{
+    width: 50px;
+    height: 45px;
+    text-align: center;
+}
+
+.Pitch-Info-Num-Text{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.Pitch-Info-Name{
+    width: 150px;
+    height: 45px;
+    text-align: center;
+}
+
+.Pitch-Info-Name-Text{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 150px;
+    height: 45px;
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.Pitch-Info-Title{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 85px;
+    height: 45px;
+    font-size: 28px;
+    line-height: 43px;
+}
+
+.Pitch-Info-Title-Mini{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 85px;
+    height: 45px;
+    font-size: 28px;
+    line-height: 43px;
+    text-align: center;
+    transform: scaleX(0.75);
+    transform-origin: left;
+}
+
+.Pitch-Info-Val{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    width: 75px;
+    height: 45px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: right;
+}
+
+.Pitch-Info-Ball{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 50px;
+    height: 45px;
+    font-size: 28px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.Count-Result-Box{
+    margin-top: 5px;
+    width: 216px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid #7F7F7F;
+    display: flex;
+}
+
+.Count-Box{
+    width: 140px;
+    height: 100%;
+}
+
+.Result-Box{
+    width: 70px;
+    height: 100%;
+}
+
+.Count-Result-Row{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 27px;
+    display: flex;
+}
+
+.Count-Result-Title{
+    font-family: 'Bahnschrift';
+    width: 27px;
+    height: 27px;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    outline: 2px solid #7F7F7F;
+    outline-offset: -2px;
+    background-color: #000000;
+}
+
+.Count-Result-Title-Fc{
+    font-family: 'Bahnschrift';
+    width: 36px;
+    height: 27px;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;
+    transform: scaleX(0.75);
+    transform-origin: left;
+}
+
+.Count-Result-Circle{
+    margin-left: 5px;
+    width: 27px;
+    height: 27px;
+    font-size: 27px;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 50%;
+    outline: 2px solid #7F7F7F;
+    outline-offset: -2px;
+    background-color: #2b2b2b;
+    box-shadow:
+        -2px -2px 4px 3px #181818 inset,
+        0 0 10px #2b2b2b;
+}
+
+.Circle-SkyBlue{
+    background-color: #00ffc8;
+    box-shadow:
+        -2px -2px 4px 3px #00c79c inset,
+        0 0 10px #00ffc8;
+}
+
+.Circle-Yellow{
+    background-color: #ffff00;
+    box-shadow:
+        -2px -2px 4px 3px #c5c500 inset,
+        0 0 10px #ffff00;
+}
+
+.Circle-Red{
+    background-color: #ff0000;
+    box-shadow:
+        -2px -2px 4px 3px #c60000 inset,
+        0 0 10px #ff0000;
+}
+
+.Circle-Green{
+    background-color: #00ff00;
+    box-shadow:
+        -2px -2px 4px 3px #00c300 inset,
+        0 0 10px #00ff00;
+}
+
+.Circle-Orange{
+    background-color: #ffa500;
+    box-shadow:
+        -2px -2px 4px 3px #cb8400 inset,
+        0 0 10px #ffa500;
+}
+
+.Info-Big{
+    position: absolute;
+    width: 460px;
+    height: 340px;
+    top: 200px;
+    left: 270px;
+    border: 5px solid #7F7F7F;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Umpire-Box{
+    position: absolute;
+    top: 0%;
+    display: flex;
+    width: 450px;
+    height: 30px;
+    border-bottom: 4px solid #7F7F7F;
+    /* width: 676px;
+    transform: scaleX(0.666);
+    transform-origin: left; */
+}
+
+.Umpire-Title{
+    font-family: 'Bahnschrift';
+    width: 20px;
+    height: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -4px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.Umpire-Name{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 93px;
+    height: 30px;
+    font-size: 26px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    background-color: #404040;
+    text-shadow: 2px 2px 1px black;
+}
+
+.Stats-Box{
+    visibility: hidden;
+    position: absolute;
+    top: 34px;
+    width: 450px;
+    height: 252px;
+    background: linear-gradient(to bottom, #FF0000 0%, #FF0000 40%, #c00000 60%, #c00000 100%);
+}
+
+.Stats-Name-Row{
+    display: flex;
+    padding-left: 10px;
+    width: 100%;
+    height: 65px;
+}
+
+.Stats-Num{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    width: 90px;
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.Stats-Name{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 10px;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.Stats-Content-Row{
+    display: flex;
+    width: 100%;
+    height: 46px;
+}
+
+.Stats-Title{
+    font-family: 'Bahnschrift';
+    padding-right: 5px;
+    width: 90px;
+    font-size: 35px;
+    line-height: 66px;
+    text-align: right;
+}
+
+.Stats-Avg{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    padding-left: 8px;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.Stats-Avg-Detail{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.Stats-Content-Row-Left{
+    display: flex;
+    width: 220px;
+    height: 46px;
+}
+
+.Stats-Content-Left{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    padding-right: 10px;
+    width: 95px;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.Stats-Content-Row-Right{
+    display: flex;
+    width: 230px;
+    height: 46px;
+}
+
+.Stats-Content-Right{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    padding-right: 10px;
+    width: 120px;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.Today-Result{
+    position: absolute;
+    bottom: 0%;
+    width: 450px;
+    height: 40px;
+    border-top: 4px solid #7F7F7F;
+    background: black;
+}
+
+.Today-Result-Box{
+    display: flex;
+    width: 500px;
+}
+
+.Today-Result-Number{
+    font-family: 'DIN-Regular';
+    font-weight: bold;
+    margin-left: 7px;
+    font-size: 39px;
+    line-height: 39.5px;
+}
+
+.Today-Result-Content{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 5px;
+    margin-right: 10px;
+    font-size: 32px;
+    line-height: 38px;
+
+}
+
+.Text-Green{
+    color: #00FF00
+}
+
+.Position-Box{
+    visibility: visible;
+    position: absolute;
+    top: 34px;
+    width: 450px;
+    height: 252px;
+}
+
+.Position-Box img{
+    width: 100%;
+    position:absolute;
+}
+
+.Position-Name{
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    text-align: center;
+    background: linear-gradient(to bottom, #006298 0%, #006298 40%, #013754 60%, #013754 100%);
+    box-shadow: 3px 0px 8px black;
+}
+
+.Position-Runner-Name{
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    text-align: center;
+    background-color: #2d2d2d;
+    box-shadow: 3px 0px 8px black;
+}
+
+.Position-Name-Text{
+    white-space: nowrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: justify;
+    text-align-last: justify;
+    font-size: 25px;
+    line-height: 27.5px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.Position-Name-Text-Four{
+    transform: scaleX(0.75);
+    transform-origin: left;
+}
+
+.Position-Name-Text-Six{
+    transform: scaleX(0.5);
+    transform-origin: left;
+}
+
+.Position-P{
+    left: 50%;
+    transform: translate(-50%, 160px);
+}
+
+.Position-C{
+    left: 50%;
+    transform: translate(-50%, 215px);
+}
+
+.Position-1B{
+    top: 122px;
+    left: 320px;
+}
+
+.Position-2B{
+    top: 75px;
+    left: 245px;
+}
+
+.Position-3B{
+    top: 122px;
+    right: 320px;
+}
+
+.Position-SS{
+    top: 75px;
+    right: 245px;
+}
+
+.Position-LF{
+    top: 30px;
+    left: 55px;
+}
+
+.Position-CF{
+    top: 10px;
+    left: 186px;
+}
+
+.Position-RF{
+    top: 30px;
+    right: 55px;
+}
+
+.Position-Runner-1B{
+    top: 160px;
+    left: 275px;
+}
+
+.Position-Runner-2B{
+    left: 50%;
+    transform: translate(-50%, 113px);
+}
+
+.Position-Runner-3B{
+    top: 160px;
+    right: 275px;
+}
+
+@keyframes SlideInText
+{
+    0%
+    {
+        transform: translateX(200px) scale(0.1);
+    }
+    70%
+    {
+        transform: translateX(0px) scale(0.75);
+    }
+    100%
+    {
+        transform: scale(1.0);
+    }
+}
+
+.Box-Full-Visiter::before {
+    content: '';
+    /*絶対配置でキラッと光るの位置を決める*/
+    position: absolute;
+    top: 0;
+    left: -75%;
+    /*キラッと光る形状*/
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    transform: skewX(-25deg);
+  }
+
+@keyframes shine
+{
+    100%
+    {
+      left: 125%;
+    }
+}
+
+.Test{
+    width: 150px;
+    height: 140px;
+    background-color: #d2d1d1;
+}
+
+@keyframes animate-banner {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

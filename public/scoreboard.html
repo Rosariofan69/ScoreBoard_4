@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>スコアボード</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!----- main ----->
+<div class="main">
+  <div class="Visiter-Member">
+    <div class="Visiter-Team1">
+      CARP
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">8</div>
+      <div class="Box-Name">
+        <div class="Name-Text-Green">秋山</div>
+      </div>
+    </div>
+
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">9</div>
+      <div class="Box-Name">
+        <div class="Name-Text">野間</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">7</div>
+      <div class="Box-Name">
+        <div class="Name-Text-Green">西川</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">3</div>
+      <div class="Box-Name">
+        <div class="Name-Text-Six">マクブルーム</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Now-Batter-Pos"></div>
+      <div class="Pos-Text">2</div>
+      <div class="Now-Batter-Name">
+        <div class="Name-Text">坂倉</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">5</div>
+      <div class="Box-Name">
+        <div class="Name-Text-Six">デビッドソン</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">6</div>
+      <div class="Box-Name">
+        <div class="Name-Text">小園</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">4</div>
+      <div class="Box-Name">
+        <div class="Name-Text">菊池</div>
+      </div>
+    </div>
+    <div class="Box-Full-Visiter">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">1</div>
+      <div class="Box-Name">
+        <div class="Name-Text">森下</div>
+      </div>
+    </div>
+  </div>
+  <div class="Running-Score-Full">
+    <div class="Running-Score-Title-Full">
+      <div class="Running-Score-Title">1</div>
+      <div class="Running-Score-Title">2</div>
+      <div class="Running-Score-Title">3</div>
+      <div class="Running-Score-Title">4</div>
+      <div class="Running-Score-Title">5</div>
+      <div class="Running-Score-Title">6</div>
+      <div class="Running-Score-Title">7</div>
+      <div class="Running-Score-Title">8</div>
+      <div class="Running-Score-Title">9</div>
+      <div class="Running-Score-Title-Extension">
+        <div class="Running-Score-Title">10</div>
+        <div class="Running-Score-Title">11</div>
+        <div class="Running-Score-Title">12</div>
+      </div>
+      <div class="Running-Score-Title-Run">R</div>
+      <div class="Running-Score-Title">H</div>
+      <div class="Running-Score-Title">E</div>
+      <div class="Running-Score-Title-LOB">LOB</div>
+    </div>
+    <div class="Running-Score-Box">
+      <div class="Score-Team">
+        <img src="./image/広島.png">
+      </div>
+      <div class="Running-Score-Odd Now-Frame"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Box-Extension">
+        <div class="Running-Score-Even"></div>
+        <div class="Running-Score-Odd"></div>
+        <div class="Running-Score-Even"></div>
+      </div>
+      <div class="Running-Score-Run">
+        <div class="Score-Text-Run Score-Text">0</div>
+      </div>
+      <div class="Running-Score-Odd">
+        <div class="Score-Text">2</div>
+      </div>
+      <div class="Running-Score-Even">
+        <div class="Score-Text">0</div>
+      </div>
+      <div class="Running-Score-Odd">
+        <div class="Score-Text">0</div>
+      </div>
+    </div>
+    <div class="Running-Score-MidLine"></div>
+    <div class="Running-Score-Box">
+      <div class="Score-Team">
+        <img src="./image/日本ハム.png">
+      </div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Even"></div>
+      <div class="Running-Score-Odd"></div>
+      <div class="Running-Score-Box-Extension">
+        <div class="Running-Score-Even"></div>
+        <div class="Running-Score-Odd"></div>
+        <div class="Running-Score-Even"></div>
+      </div>
+      <div class="Running-Score-Run">
+        <div class="Score-Text-Run Score-Text">0</div>
+      </div>
+      <div class="Running-Score-Odd">
+        <div class="Score-Text">0</div>
+      </div>
+      <div class="Running-Score-Even">
+        <div class="Score-Text">0</div>
+      </div>
+      <div class="Running-Score-Odd">
+        <div class="Score-Text">0</div>
+      </div>
+    </div>
+  </div>
+  <div class="Home-Member">
+    <div class="Home-Team1">
+      FIGHTERS
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Next-Start-Pos"></div>
+      <div class="Pos-Text">8</div>
+      <div class="Box-Name">
+        <div class="Name-Text">五十幡</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">4</div>
+      <div class="Box-Name">
+        <div class="Name-Text">石井</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">7</div>
+      <div class="Box-Name">
+        <div class="Name-Text">松本剛</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">3</div>
+      <div class="Box-Name">
+        <div class="Name-Text">清宮</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">5</div>
+      <div class="Box-Name">
+        <div class="Name-Text">野村</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">6</div>
+      <div class="Box-Name">
+        <div class="Name-Text">上川畑</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text-DH">DH</div>
+      <div class="Box-Name">
+        <div class="Name-Text-Six">アルカンタラ</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">2</div>
+      <div class="Box-Name">
+        <div class="Name-Text">宇佐見</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">9</div>
+      <div class="Box-Name">
+        <div class="Name-Text">淺間</div>
+      </div>
+    </div>
+    <div class="Box-Full-Home-P">
+      <div class="Box-Pos"></div>
+      <div class="Pos-Text">1</div>
+      <div class="Box-Name">
+        <div class="Name-Text">上沢</div>
+      </div>
+    </div>
+  </div>
+  <div class="Ribbon">
+    <!-- <div class="Ribbon-Content">他球場の経過： De 1 - 3 ヤ（4回裏） 神 4 - 0 巨（5回表） オ 1 - 6 楽（5回裏） ロ 0 - 3 ソ（5回表） 日 0 - 2 西（3回表）</div> -->
+    <div class="Ribbon-Content">本日はYuチャンネルにご来場いただきましてありがとうございました。次回の配信をお楽しみに！</div>
+  </div>
+  <div class="Info-Mini">
+    <div class="Pitch-Info-Box">
+      <div class="Pitch-Info-Row">
+        <div class="Pitch-Info-Num">
+          <div class="Pitch-Info-Num-Text">15</div>
+        </div>
+        <div class="Pitch-Info-Name">
+          <div class="Pitch-Info-Name-Text">上沢 直之</div>
+        </div>
+      </div>
+      <div class="Pitch-Info-Row">
+        <div class="Pitch-Info-Title">投球数</div>
+        <div class="Pitch-Info-Val">16</div>
+        <div class="Pitch-Info-Ball">球</div>
+      </div>
+      <div class="Pitch-Info-Row">
+        <div class="Pitch-Info-Title-Mini">この打席</div>
+        <div class="Pitch-Info-Val">3</div>
+        <div class="Pitch-Info-Ball">球</div>
+      </div>
+      <div class="Pitch-Info-Row">
+        <div class="Pitch-Info-Title">奪三振</div>
+        <div class="Pitch-Info-Val">0</div>
+      </div>
+      <div class="Pitch-Info-Row">
+        <div class="Pitch-Info-Title">与四球</div>
+        <div class="Pitch-Info-Val">0</div>
+      </div>
+    </div>
+    <div class="Count-Result-Box">
+      <div class="Count-Box">
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">B</div>
+          <div class="Count-Result-Circle Circle-SkyBlue"></div>
+          <div class="Count-Result-Circle Circle-SkyBlue"></div>
+          <div class="Count-Result-Circle"></div>
+        </div>
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">S</div>
+          <div class="Count-Result-Circle Circle-Yellow"></div>
+          <div class="Count-Result-Circle"></div>
+        </div>
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">O</div>
+          <div class="Count-Result-Circle Circle-Red"></div>
+          <div class="Count-Result-Circle Circle-Red"></div>
+        </div>
+      </div>
+      <div class="Result-Box">
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">H</div>
+          <div class="Count-Result-Circle Circle-Green"></div>
+        </div>
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">E</div>
+          <div class="Count-Result-Circle Circle-Red"></div>
+        </div>
+        <div class="Count-Result-Row">
+          <div class="Count-Result-Title">
+            <div class="Count-Result-Title-Fc">Fc</div>
+          </div>
+          <div class="Count-Result-Circle Circle-Orange"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="Info-Big">
+    <div class="Umpire-Box">
+      <div class="Umpire-Title">PL</div>
+      <div class="Umpire-Name">山　路</div>
+      <div class="Umpire-Title">1B</div>
+      <div class="Umpire-Name">川　口</div>
+      <div class="Umpire-Title">2B</div>
+      <div class="Umpire-Name">秋　村</div>
+      <div class="Umpire-Title">3B</div>
+      <div class="Umpire-Name">吉　本</div>
+      <!-- <div class="Umpire-Title">LL</div>
+      <div class="Umpire-Name">長　井</div>
+      <div class="Umpire-Title">RL</div>
+      <div class="Umpire-Name">橋　本</div> -->
+    </div>
+    <div class="Stats-Box">
+      <div class="Stats-Name-Row">
+        <div class="Stats-Num">31</div>
+        <div class="Stats-Name">坂倉 将吾</div>
+      </div>
+      <div class="Stats-Content-Row">
+        <div class="Stats-Title">AVG</div>
+        <div class="Stats-Avg">.310</div>
+        <div class="Stats-Avg-Detail">(277-86)</div>
+      </div>
+      <div class="Stats-Content-Row">
+        <div class="Stats-Content-Row-Left">
+          <div class="Stats-Title">HR</div>
+          <div class="Stats-Content-Left">6</div>
+        </div>
+        <div class="Stats-Content-Row-Right">
+          <div class="Stats-Title">OBP</div>
+          <div class="Stats-Content-Right">.368</div>
+        </div>
+      </div>
+      <div class="Stats-Content-Row">
+        <div class="Stats-Content-Row-Left">
+          <div class="Stats-Title">RBI</div>
+          <div class="Stats-Content-Left">37</div>
+        </div>
+        <div class="Stats-Content-Row-Right">
+          <div class="Stats-Title">SLG</div>
+          <div class="Stats-Content-Right">.430</div>
+        </div>
+      </div>
+      <div class="Stats-Content-Row">
+        <div class="Stats-Content-Row-Left">
+          <div class="Stats-Title">BB</div>
+          <div class="Stats-Content-Left">22</div>
+        </div>
+        <div class="Stats-Content-Row-Right">
+          <div class="Stats-Title">OPS</div>
+          <div class="Stats-Content-Right">.718</div>
+        </div>
+      </div>
+    </div>
+    <div class="Position-Box">
+      <img src="./image/position.png">
+      <div class="Position-Name Position-P">
+        <div class="Position-Name-Text">上沢</div>
+      </div>
+      <div class="Position-Name Position-C">
+        <div class="Position-Name-Text">宇佐見</div>
+      </div>
+      <div class="Position-Name Position-1B">
+        <div class="Position-Name-Text">清宮</div>
+      </div>
+      <div class="Position-Name Position-2B">
+        <div class="Position-Name-Text">石井</div>
+      </div>
+      <div class="Position-Name Position-3B">
+        <div class="Position-Name-Text">野村</div>
+      </div>
+      <div class="Position-Name Position-SS">
+        <div class="Position-Name-Text">上川畑</div>
+      </div>
+      <div class="Position-Name Position-LF">
+        <div class="Position-Name-Text">松本剛</div>
+      </div>
+      <div class="Position-Name Position-CF">
+        <div class="Position-Name-Text">五十幡</div>
+      </div>
+      <div class="Position-Name Position-RF">
+        <div class="Position-Name-Text">淺間</div>
+      </div>
+      <div class="Position-Runner-Name Position-Runner-1B">
+        <div class="Position-Name-Text Text-Green">秋　山</div>
+      </div>
+      <!-- <div class="Position-Runner-Name Position-Runner-2B">
+        <div class="Position-Name-Text Text-Green">西　川</div>
+      </div> -->
+      <div class="Position-Runner-Name Position-Runner-3B">
+        <div class="Position-Name-Text Text-Green">西　川</div>
+      </div>
+    </div>
+    <div class="Today-Result">
+      <div class="Today-Result-Box">
+        <div class="Today-Result-Number">1.</div>
+        <div class="Today-Result-Content Text-Green">本塁打</div>
+        <div class="Today-Result-Number">2.</div>
+        <div class="Today-Result-Content Text-Green">本塁打</div>
+        <div class="Today-Result-Number">3.</div>
+        <div class="Today-Result-Content Text-Green">本塁打</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="control">
+  <div id="Control-Visiter" class="Control-Section">
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">1</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <!-- <input type="button" value="⏎" class="Enter-Button" onclick="test()"> -->
+      <button id="button1" class="Enter-Button"></button>
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">2</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">3</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">4</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">5</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">6</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">7</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">8</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">9</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;"></label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <input type="button" value="一括⏎" class="Bulk-Enter-Button" onclick="test()">
+    </div>
+  </div>
+  <div class="Control-Section">
+    <div>走塁死</div>
+    <select class="MultiSelect" multiple>
+    </select>
+    <div>生還</div>
+    <select class="MultiSelect" multiple>
+    </select>
+    <select class="Runner-DropDown">
+      <option hidden>出塁状況</option>
+    </select>
+  </div>
+  <div class="Control-Section">
+    <div class="Res-First-Category">
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="first">三振　
+        <input type="checkbox" name="first">ゴロ　
+        <input type="checkbox" name="first">併殺　
+        <input type="checkbox" name="first">フライ
+      </div>
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="first">四球　
+        <input type="checkbox" name="first">死球　
+        <input type="checkbox" name="first">敬遠　
+      </div>
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="first">犠飛　
+        <input type="checkbox" name="first">犠打　
+        <input type="checkbox" name="first">犠打失策
+        <input type="checkbox" name="first">犠打野選
+      </div>
+    </div>
+    <div class="Res-Second-Category">
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="second">安打　
+        <input type="checkbox" name="second">二塁打
+        <input type="checkbox" name="second">三塁打
+        <input type="checkbox" name="second">本塁打
+      </div>
+    </div>
+    <div class="Res-Third-Category">
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="third">打者出塁
+        <input type="checkbox" name="third">＋失策
+      </div>
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="third">失策　
+        <input type="checkbox" name="third">野選　
+        <input type="checkbox" name="third">振逃　
+      </div>
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="third">打撃妨害
+        <input type="checkbox" name="third">走塁妨害
+      </div>
+    </div>
+    <div class="Res-Fours-Category">
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="fours">投　
+        <input type="checkbox" name="fours">捕　
+        <input type="checkbox" name="fours">一　
+        <input type="checkbox" name="fours">二　
+        <input type="checkbox" name="fours">三　
+        <input type="checkbox" name="fours">遊　
+      </div>
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="fours">左　
+        <input type="checkbox" name="fours">中　
+        <input type="checkbox" name="fours">右　
+        <input type="checkbox" name="fours">左中　
+        <input type="checkbox" name="fours">右中　
+      </div>
+    </div>
+    <div class="Res-Fifth-Category">
+      <div class="Play-Result-Row">
+        <input type="checkbox" name="fifth">盗塁　
+        <input type="checkbox" name="fifth">盗塁死
+        <input type="checkbox" name="fifth">牽制死
+      </div>
+    </div>
+  </div>
+  <div class="Control-Section">
+    <button class="Game-Start-End-Button">試合開始</button>
+    <button class="Game-Start-End-Button">試合終了</button>
+    <button class="Game-Start-End-Button">タイブレーク</button>
+    <div class="Base-Area">
+      <button class="Base-Button Base-First"></button>
+      <button class="Base-Button Base-Second"></button>
+      <button class="Base-Button Base-Third"></button>
+    </div>
+    <div>
+      打点
+      <select class="RBI-DropDown">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+  </div>
+  <div class="Control-Section">
+    <div class="Button-Row">
+      <button class="Count-Button Button-Color-Ball">B</button>
+      <button class="Count-Button Button-Color-Ball">B-1</button>
+      <button class="Minus-Button">投球数-1</button>
+    </div>
+    <div class="Button-Row">
+      <button class="Count-Button Button-Color-Strike">S</button>
+      <button class="Count-Button Button-Color-Strike">S-1</button>
+      <button class="Minus-Button Button-Color-Strike">ファール</button>
+    </div>
+    <div class="Button-Row">
+      <button class="Count-Button Button-Color-Out">O</button>
+      <button class="Count-Button Button-Color-Out">O-1</button>
+      <button class="Minus-Button">打席内-1</button>
+    </div>
+    <div class="Button-Row" style="margin-top: 10px;">
+      <button class="Fix-Button">スコア修正</button>
+      <button class="Fix-Button">打席結果修正</button>
+    </div>
+    <div class="Button-Row">
+      <button class="Fix-Button">投手成績修正</button>
+      <button class="Fix-Button">1つ前に戻る</button>
+    </div>
+    <div class="Button-Row" style="margin-bottom: 10px;">
+      <button class="Fix-Button">審判</button>
+    </div>
+    <div class="Button-Row">
+      <button class="Confirm-Button">確　定</button>
+    </div>
+  </div>
+  <div class="Control-Section" style="font-size: 13.5px;">
+    打者成績表示の切替
+    <select class="Setting-DropDown"></select>
+    INFOスペースの表示
+    <select class="Setting-DropDown"></select>
+    カスタムテキスト
+    <textarea class="Custom-TextArea"></textarea>
+  </div>
+  <div id="Control-Visiter" class="Control-Section">
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">1</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <!-- <input type="button" value="⏎" class="Enter-Button" onclick="test()"> -->
+      <button id="button1" class="Enter-Button"></button>
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">2</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">3</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">4</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">5</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">6</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">7</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">8</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;">9</label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <label style="color: black; width: 15px; height: 8px;"></label>
+      <input type="text" class="Input-Box">
+      <input type="text" class="Input-Box">
+      <input type="button" value="⏎" class="Enter-Button" onclick="test()">
+      <input type="checkbox">
+    </div>
+    <div class="Input-Row">
+      <input type="button" value="一括⏎" class="Bulk-Enter-Button" onclick="test()">
+    </div>
+  </div>
+</div>
+<!----- /main ----->
+<script src="./scoreboard.js"></script>
+
+</body>
+</html>
