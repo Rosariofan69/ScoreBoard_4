@@ -21,7 +21,7 @@ div.control{
     overflow: hidden;
     width: 1250px;
     height: 270px;
-    background-color: #c2c1c1;
+    background-color: #dbdbdb;
     justify-content: space-between;
 }
 
@@ -153,7 +153,7 @@ div.control{
 }
 
 .Button-Color-Ball{
-    background-color: #00ffc8;
+    background-color: #00fff2;
 }
 
 .Button-Color-Strike{
@@ -459,9 +459,9 @@ div.control{
     line-height: 38px;
     font-size: 36px;
     text-align: center;
-    width: 373px;
+    /* width: 373px; */
     height: 42px;
-    transform: scaleX(0.375);
+    transform: scaleX(0.42);
     transform-origin: left;
     text-shadow: 3px 2px 1px black;
 }
@@ -789,10 +789,10 @@ div.control{
 }
 
 .Circle-SkyBlue{
-    background-color: #00ffc8;
+    background-color: #00fff2;
     box-shadow:
         -2px -2px 4px 3px #00c79c inset,
-        0 0 10px #00ffc8;
+        0 0 10px #00fff2;
 }
 
 .Circle-Yellow{
